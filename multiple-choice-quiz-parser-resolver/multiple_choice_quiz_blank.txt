@@ -1,0 +1,24 @@
+1.Czy współrzędne homogeniczne mogą mieć współrzędną w=0?
+a.[] Nie, bo nie wolno dzielić przez zero.
+b.[] Nie, bo zgodnie z definicją "w" musi być różne od 0.
+c.[] Tak, w takiej sytuacji są to współrzędne wektora (przesunięcia) a nie pozycji.
+
+2.Atrybut programu cieniującego to:
+a.[] Parametr wejściowy programu cieniującego, który dla każdego wierzchołka ma taką samą wartość.
+b.[] Parametr wejściowy programu cieniującego, który dla każdego wierzchołka może mieć inną wartość.
+c.[] Parametr wejściowy programu cieniującego, który dla każdego fragmentu ma inną wartość.
+
+3. Inverse kinematics to:
+a.[] Obliczanie układu szkieletu na podstawie oczekiwanego efektu końcowego
+b.[] Odtwarzanie animacji szkieletowej od tyłu
+c.[] Obliczanie współrzędnych wierzchołków na podstawie układu kości
+
+4. Miękie cienie są:
+a.[] Efektem wynikającym z zastosowania powierzchniowych źródeł światła
+b.[] Błędem wynikającym z tego, że modele oświetlenia są tylko przybliżeniem faktycznego zachowania światła
+c.[] Efektem symulacji fizycznej obiektów plastycznych
+
+5. Typ glm::mat4 reprezentuje
+a.[] Wektor 4 liczbowy
+b.[] Macierz 4x4
+c.[] Materiał o czterech składowych koloru
