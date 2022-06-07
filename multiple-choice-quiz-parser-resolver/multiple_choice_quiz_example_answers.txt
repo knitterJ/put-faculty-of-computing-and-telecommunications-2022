@@ -1,15 +1,15 @@
 1.Czy współrzędne homogeniczne mogą mieć współrzędną w=0?
 a.[] Nie, bo nie wolno dzielić przez zero.
-b.[X] Nie, bo zgodnie z definicją "w" musi być różne od 0.
+b.[x] Nie, bo zgodnie z definicją "w" musi być różne od 0.
 c.[] Tak, w takiej sytuacji są to współrzędne wektora (przesunięcia) a nie pozycji.
 
 2.Atrybut programu cieniującego to:
 a.[] Parametr wejściowy programu cieniującego, który dla każdego wierzchołka ma taką samą wartość.
 b.[] Parametr wejściowy programu cieniującego, który dla każdego wierzchołka może mieć inną wartość.
-c.[X] Parametr wejściowy programu cieniującego, który dla każdego fragmentu ma inną wartość.
+c.[x] Parametr wejściowy programu cieniującego, który dla każdego fragmentu ma inną wartość.
 
 3. Inverse kinematics to:
-a.[X] Obliczanie układu szkieletu na podstawie oczekiwanego efektu końcowego
+a.[x] Obliczanie układu szkieletu na podstawie oczekiwanego efektu końcowego
 b.[] Odtwarzanie animacji szkieletowej od tyłu
 c.[] Obliczanie współrzędnych wierzchołków na podstawie układu kości
 
@@ -22,3 +22,33 @@ c.[] Efektem symulacji fizycznej obiektów plastycznych
 a.[] Wektor 4 liczbowy
 b.[X] Macierz 4x4
 c.[] Materiał o czterech składowych koloru
+
+6. Wektor znormalizowany to:
+a.[] Wektor o długości jeden
+b.[X] Wektor określający normalne współrzędne w przestrzeni trójwymiarowej przeliczony ze współrzędnych homogenicznych
+c.[] Wektor prostopadły do powierzchni
+
+7. Przestrzeń oka to:
+a.[X] Wspólna przestrzeń dla wszystkich modeli, w której kamera znajduje się w początku układu współrzędnych.
+b.[] W której model znajduje się w początku układu współrzędnych.
+c.[] Wspólna przestrzeń dla wszystkich modeli, w której kamera nie musi się znajdować w początku układu współrzędnych.
+
+8. Jaka macierz X przenosi współrzędne z przestrzeni oka do przestrzeni modelu:
+a.[] X = M⁻¹ V⁻¹
+b.[] X = P⁻¹ M
+c.[X] X = V⁻¹ P⁻¹
+
+9. Za pomocą procedury glm::lookAt można wyliczyć macierz:
+a.[] Rotacji
+b.[] Rzutowania
+c.[X] Widoku
+
+10. Jaka macierz X przenosi współrzędne z przestrzeni przycięcia do przestrzeni świata:
+a.[] X = V⁻¹ P⁻¹
+b.[X] X = M⁻¹ V⁻¹
+c.[] X = (VM)⁻¹
+
+11. Podwójne buforowanie pozwala na:
+a.[] Synchronizację odświeżania ekranu z procesem rysowania sceny.
+b.[] Unikanie problemu Z-fighting poprzez alokację dwóch Z-buforów.
+c.[X] Ukrycie procesu rysowania sceny.
