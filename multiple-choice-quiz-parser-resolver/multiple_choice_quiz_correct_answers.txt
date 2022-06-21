@@ -52,3 +52,8 @@ c.[] X = (VM)⁻¹
 a.[] Synchronizację odświeżania ekranu z procesem rysowania sceny.
 b.[] Unikanie problemu Z-fighting poprzez alokację dwóch Z-buforów.
 c.[X] Ukrycie procesu rysowania sceny.
+
+12. Przestrzeń świata to przestrzeń:
+a.[X] Wspólna przestrzeń dla wszystkich modeli, w której kamera nie musi znajdować się w początku układu współrzędnych.
+b.[] Wspólna przestrzeń dla wszystkich modeli, w której kamera zawsze znajduje się w początku układu współrzędnych
+c.[] W której model znajduje się na początku układu współrzędnych, a jego położenie, rozmiar i obrót nie mają związku z innymi obiektami na scenie.
