@@ -7,8 +7,8 @@ and then indicates which questions were answered incorrectly
 Threshold to pass the test equals 50%.
 """
 
-file_path_users_answers = "/home/jacob/multiple_choice_quiz_example_answers.txt"
-file_path_correct_answers = "/home/jacob/multiple_choice_quiz_correct_answers.txt"
+file_path_users_answers = "./multiple_choice_quiz_example_answers.txt"
+file_path_correct_answers = "./multiple_choice_quiz_correct_answers.txt"
 
 
 def parsePunchedCard(file_path):
